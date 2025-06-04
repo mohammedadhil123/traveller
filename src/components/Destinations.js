@@ -51,6 +51,7 @@ export default function Destinations() {
 }
 
 const Section = styled.section`
+margin-bottom: 120px;
   display: flex;
   gap: 5rem;
   .info {
@@ -64,11 +65,11 @@ const Section = styled.section`
       font-size: 3rem;
       line-height: 3rem;
       span {
-        color: var(--primary-color);
+        color: red;
       }
     }
     p {
-      color: var(--secondary-text);
+      color: red;
     }
   }
   .destinations {
